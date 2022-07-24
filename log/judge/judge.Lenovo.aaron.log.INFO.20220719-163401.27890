@@ -1,0 +1,33 @@
+Log file created at: 2022/07/19 16:34:01
+Running on machine: Lenovo
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0719 16:34:01.776093 27890 game.cpp:358] buf value: 10 10 .......... .o#....#.. .....O.#.. ..#...111. ..#..11#1. ...#.1#... .o...1.#.. o#o#.1#... 211111..#. 1...#..... 8 0 9 0 0 0 8 8 0 40
+I0719 16:34:01.776998 27890 game.cpp:416] computer init success 
+I0719 16:34:01.777011 27890 game.cpp:358] buf value: 10 10 .......... .o#....#.. .....O.#.. ..#...111. ..#..11#1. ...#.1#... .o...1.#.. o#o#.1#... 211111..#. 1...#..... 9 0 8 0 0 0 8 8 0 40
+I0719 16:34:01.777209 27890 game.cpp:416] player init success 
+I0719 16:34:01.777215 27890 game.cpp:244] On round 1 --------------------------------------------------
+I0719 16:34:01.777217 27890 game.cpp:245] computer scores: 8 player scores: 8
+I0719 16:34:01.777220 27890 game.cpp:246] computer status: 0 player status: 0
+I0719 16:34:01.777225 27890 game.cpp:358] buf value: 10 10 .......... .o#....#.. .....O.#.. ..#...111. ..#..11#1. ...#.1#... .o...1.#.. o#o#.1#... 211111..#. 1...#..... 8 0 9 0 0 0 8 8 1 39
+I0719 16:34:01.777338 27890 game.cpp:438] computer want to move  (8,0)
+I0719 16:34:01.777343 27890 game.cpp:439] it is in (8,0)
+I0719 16:34:01.777343 27890 game.cpp:341] computer remove snake successfully
+I0719 16:34:01.777345 27890 game.cpp:453] computer move wrong and died
+I0719 16:34:01.777351 27890 game.cpp:358] buf value: 10 10 .......... .o#....#.. .....O.#.. ..#...111. ..#..11#1. ...#.1#... .o...1.#.. o#o#.1#... .11111..#. 1...#..... 8 0 9 0 -1 0 4 8 1 39
+I0719 16:34:01.777380 27890 game.cpp:404] computer game over
+I0719 16:34:01.777386 27890 game.cpp:358] buf value: 10 10 .......... .o#....#.. .....O.#.. ..#...111. ..#..11#1. ...#.1#... .o...1.#.. o#o#.1#... .11111..#. 1...#..... 9 0 8 0 0 -1 8 4 1 39
+I0719 16:34:01.777570 27890 game.cpp:438] player want to move  (9,1)
+I0719 16:34:01.777573 27890 game.cpp:439] it is in (9,0)
+I0719 16:34:01.777575 27890 game.cpp:446] player moved to (9,1)
+I0719 16:34:01.777578 27890 game.cpp:244] On round 2 --------------------------------------------------
+I0719 16:34:01.777580 27890 game.cpp:245] computer scores: 4 player scores: 8
+I0719 16:34:01.777581 27890 game.cpp:246] computer status: -1 player status: 0
+I0719 16:34:01.777586 27890 game.cpp:358] buf value: 10 10 .......... .o#....#.. .....O.#.. ..#...111. ..#..11#1. ...#.1#... .o...1.#.. o#o#.1#... .11111..#. 11..#..... 9 1 8 0 0 -1 8 4 2 38
+I0719 16:34:01.869457 27890 game.cpp:427] player round runtime error or time out and died
+I0719 16:34:01.869469 27890 game.cpp:341] player remove snake successfully
+I0719 16:34:01.869477 27890 game.cpp:358] buf value: 10 10 .......... .o#....#.. .....O.#.. ..#...111. ..#..11#1. ...#.1#... .o...1.#.. o#o#.1#... .11111..#. ....#..... 9 1 8 0 -1 -1 4 4 2 38
+I0719 16:34:01.869513 27890 game.cpp:404] player game over
+I0719 16:34:01.869519 27890 game.cpp:549] computer get 4 scores
+I0719 16:34:01.869521 27890 game.cpp:550] player get 4 scores
+I0719 16:34:01.869522 27890 game.cpp:556] Tied
+I0719 16:34:01.869524 27890 game.cpp:560] Game over
